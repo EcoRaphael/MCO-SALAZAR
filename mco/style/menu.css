@@ -74,12 +74,13 @@ body {
 
 .links:hover {
     color: var(--secondary-text-color);
+   
 
 }
 
 .logo {
     height: 5rem;
-    margin-left: -6rem;
+    margin-left: -3rem;
 }
 
 main {
@@ -117,7 +118,7 @@ main {
 }
 
 .sidebar ul li:hover {
-  color: #ffffff;
+  color: var(--accent-color);
   font-weight: bold;
 }
 
@@ -137,7 +138,7 @@ main {
       display: block;
     }
 
-    .item1{
+    .item{
       text-decoration: none;
       display: inline-block;
       color: inherit;
@@ -146,35 +147,16 @@ main {
       text-align: center;
     }
 
-    .item1 img {
+    .item img {
       width: 150px;
       height: 150px;
       border-radius: 50%;
       object-fit: cover;
     }
 
-    .item1 p {
+    .item p {
       margin-top: 10px;
       font-weight: bold;
     }
 
-    .item2{
-      text-decoration: none;
-      display: inline-block;
-      color: inherit;
-      width: 180px;
-      margin: 25px;
-      text-align: center;
-    }
-
-    .item2 img {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      object-fit: cover;
-    }
-
-    .item2 p {
-      margin-top: 10px;
-      font-weight: bold;
-    }
+    
